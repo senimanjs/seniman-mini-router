@@ -1,0 +1,21 @@
+{
+  "name": "seniman-mini-router",
+  "version": "0.0.2",
+  "description": "",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "extensions": [
+    ".js"
+  ],
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "seniman": ">=0.0.95"
+  }
+}
